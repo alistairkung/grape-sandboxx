@@ -7,7 +7,7 @@ describe 'Api' do
   include Rack::Test::Methods
 
   def app
-    Test_Api::API
+    Todo::API
   end
 
   def response_body

@@ -1,5 +1,5 @@
 require 'grape'
-module Test_Api
+module Todo
   class API < Grape::API
     format :json
 
