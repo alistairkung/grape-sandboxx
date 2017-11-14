@@ -1,8 +1,7 @@
 class TodoListModel
-  attr_reader :todos
-
-  def initialize
-    @todos = []
+  class << self
+    def todos
+      @todos = []
+    end
   end
-
 end
